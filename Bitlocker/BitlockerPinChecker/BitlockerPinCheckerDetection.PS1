@@ -1,0 +1,1 @@
+Get-ScheduledTask | Where-Object {$_.taskname -like "AppLog"}
