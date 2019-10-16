@@ -21,7 +21,7 @@ After user click OK it will redirect to Company Portal to the set pin app.
 2. Add you app GUID from 1. to pinchecker.ps1 "start companyportal:ApplicationId={YourAppGUID}"
 3. Build IntuneWinPackage using https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool with the command
 
-  .\IntuneWinAppUtil -c .\BitlockerPinChecker -s add.ps1 -o .\ -q
+  `.\IntuneWinAppUtil -c .\BitlockerPinChecker -s add.ps1 -o .\ -q`
 
 4. add add.intunewin into Client App (WIn32)
 5. add BitlockerPinCheckerDetection.ps1 as detection script.
