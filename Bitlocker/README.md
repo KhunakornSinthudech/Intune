@@ -18,7 +18,7 @@ This one will check the BitLocker pin status and notify user to set the pin.
 After user click OK it will redirect to Company Portal to the set pin app.
 
 1. Create the client app package from https://github.com/okieselbach/Intune/tree/master/Win32/SetBitLockerPin
-2. Add you app GUID from 1. to pinchecker.ps1 "start companyportal:ApplicationId={YourAppGUID}"
+2. Add you app GUID from 1. to pinchecker.ps1 `start companyportal:ApplicationId={YourAppGUID}`
 3. Build IntuneWinPackage using https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool with the command
 
   `.\IntuneWinAppUtil -c .\BitlockerPinChecker -s add.ps1 -o .\ -q`
